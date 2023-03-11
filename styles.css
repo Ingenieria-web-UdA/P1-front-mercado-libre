@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, 'sans-serif';
+}
+.debug {
+    border: 1px solid red;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #fff159;
+    padding-bottom: 8px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+/*parte central del header tiene dos divs(izq-der) en column*/
+.parte-central-header{          
+    display: flex;
+    height: 92px;
+    gap: 100px;
+}
+/*parte izquierda tiene dos divs, en row*/
+.parte-central-header-izq{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+/*este es el primer div*/
+.parte-central-izq-header-arriba{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 11px;
+    gap: 51px;
+}
+.parte-central-izq-header-abajo{
+    display: flex;
+    gap: 45px;
+}
+.parte-central-izq-header-abajo-1{
+    padding-left: 21px;
+    padding-bottom: 3px;
+    padding-top: 13px;
+}
+.parte-central-izq-header-abajo-2{
+    display: flex;
+    gap: 18px;
+    padding-top: 13px;
+    padding-bottom: 3px;
+
+}
+.parte-central-der{
+    padding-top: 69px;
+    padding-bottom: 3px;
+    
+}
