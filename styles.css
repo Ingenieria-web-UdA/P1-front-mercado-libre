@@ -198,6 +198,109 @@ main{
     padding-top: 4px;
 }
 
+.main-div1-section3{
+    width: 1200px;
+    height: 340px;
+    border-radius: 6px;
+}
+.section3-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    height: 87px;
+    width: 100%;
+    background: linear-gradient(to right, #A90F90, #111A53);
+    color: white;
+}
+.section3-suscribirse{
+    font-size: 25px;
+    font-family: Roboto;
+}
+.section3-3items{
+    display: flex;
+    gap: 6px;
+}
+.section3-precios{
+    display: flex;
+    flex-direction: column;
+}
+.mes{
+    padding-top: 18px;
+}
+.texto-subrayado{
+    text-decoration: line-through;
+}
+
+.section3-main{
+    height: 172px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 29px;
+    padding-top: 20px;
+    border-bottom: solid 1px black;
+}
+.section3-main-div2{
+    display: flex;
+    width: 1132px;
+    height: 74px;
+}
+.disney{
+    display: flex;
+    width: 377px;
+    height: 100%;
+    gap: 15px;
+}
+.span-disney{
+    padding-top: 29px;
+    padding-bottom: 29px;
+    font-size: 15px;
+}
+.star{
+    display: flex;
+    width: 377px;
+    height: 100%;
+    gap: 15px;
+}
+.span-star{
+    padding-top: 29px;
+    padding-bottom: 29px;
+    font-size: 15px;
+}
+.truck{
+    display: flex;
+    width: 377px;
+    height: 100%;
+    gap: 15px;
+}
+.span-truck{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+}
+
+.section3-footer{
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-right: 30px;
+    padding-left: 1025px;
+}
+.button-suscribete{
+    width: 123px;
+    height: 48px;
+    background-color: #3483FA;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
 
 
 
