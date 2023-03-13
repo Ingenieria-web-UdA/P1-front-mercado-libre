@@ -597,6 +597,64 @@ main{
 .main-div2{
     height: 960px;
     background-color: #EBEBEB;
+    padding-top: 33px;
+    padding-left: 164px;
+    padding-right: 164px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
+.main-div2-section7{
+    width: 1200px;
+    height: 440px;
+}
+
+
+
+
+
+
+.main-div2-section8{
+    width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /*padding-left: 10px;*/
+}
+.section8-span{
+    padding-top: 37px;
+    font-size: 25px;
+    color: #666666;
+}
+.section8-cards{
+    display: grid;
+    width: 1190px;
+    height: 340px;
+    grid-template-columns: 170px 170px 170px 170px 170px 170px 170px;
+    /*background-color: #ffffff;*/ 
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.section8-imagen-texto{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 170px;
+    padding-top: 46px;
+    gap: 11px;
+    align-items: center;
+    background-color: #fff;
+}
+.section8-tamano-imagen{
+    width: 48px;
+    height: 48px;
+}
+.section8-tamano-span{
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+
 
 /*fin-main*/
